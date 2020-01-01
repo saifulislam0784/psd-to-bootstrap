@@ -1,0 +1,229 @@
+/*
+
+Author Name: Saiful Isalm;
+Email: saifulislam0784@gmail.com;
+
+*/
+
+/*
+
+=====Index=====
+	1.Header
+	2.Fusce at
+	3.Facilisis
+	4.Ante donec
+	5.Blandit rhoncus
+	6.Placerat
+	7.Footer
+
+*/
+
+/* Global css */
+
+body{
+
+}
+
+h1{
+	color: #fff;
+	font-size: 60px;
+}
+
+h3{
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+
+h4{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	margin: 20px 0px;
+
+}
+
+h5{
+
+	
+}
+
+p{
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+
+/* theme css */
+
+.nav-head{
+	background-color: #EDEFF1!important;
+}
+
+.nav-link.js-scroll-trigger.active{
+	background-color: #DD4B2B;
+	padding: 5px 10px;
+	border-radius: 20px;
+	color: white!important;
+}
+
+.nav-link{
+	color: #31353e!important;
+}
+
+.one{
+	background: url(../img/bg.png);
+	background-repeat: no-repeat center top;
+	background-size: cover;
+	padding: 60px 0px;
+}
+
+.one-title{
+	padding-top: 400px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.food{
+	text-align: center;
+}
+
+.btn-cstm{
+	display: block;
+	margin: 30px auto;
+	padding: 5px 30px;
+	border-radius: 100px;
+	border: none;
+	background-color: #fff;
+
+}
+
+.two{
+	background-color: #edeff1;
+}
+
+.two-title{
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.food-item p{
+	color: #31353e!important;
+}
+
+.food-item h4{
+	color: #31353e!important;
+}
+
+.three{
+	background: url(../img/bg1.png);
+	background-repeat: no-repeat center top;
+	background-size: cover;
+	padding: 50px 0px;
+}
+
+.three-title{
+	text-align: center;
+	color: #fff;
+}
+
+.three-title h2{
+	margin-bottom: 30px;
+}
+
+.btn-cstm-one{
+	background: #fff;
+	padding: 5px 30px;
+	border: none;
+	border-radius: 100px;
+	position: absolute;
+	top: -35px;
+    left: 300px
+}
+
+.btn-cstm-four{
+	background: transparent;
+	padding: 5px 50px 5px 10px;
+	border: 1px solid #fff;
+	border-radius: 100px;
+	position: relative;
+	color: #fff;
+}
+
+.four h6{
+	color: #191b29;
+	text-align: left;
+	margin-left: 30px;
+}
+.four h2{
+	margin-bottom: 30px;
+	margin-left: 50px;
+}
+
+.four p{
+	color: #191b29;
+	text-align: left;
+	margin: 30px 0px;
+	margin-left: 30px;
+}
+
+.btn-cstm-two{
+	padding: 5px 20px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	background: #dd4b2b;
+	border: none;
+	border-radius: 100px;
+	margin-left: 30px;
+	color: #fff;
+}
+
+.btn-cstm-three{
+	padding: 5px 20px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	background: #4b4e73;
+	border: none;
+	border-radius: 100px;
+	margin-left: 30px;
+	color: #fff;
+}
+
+.five{
+	background-color: #d75d0e;
+}
+
+.five li{
+	text-align: center;
+	list-style: none;
+	color: #fff;
+
+}
+
+footer{
+	background: url(../img/bg1.png);
+	background-repeat: no-repeat center top;
+	background-size: cover;
+	
+}
+
+footer p{
+	padding-bottom: 100px;
+}
+
+
+
+/* media query */
+
+@media (min-width: 0px) and (max-width: 500px){
+	.one-title h1{
+	text-align: center;
+	font-size: 30px;
+}
+
+.img-fluid{
+	display: block;
+	margin: 0px auto;
+	padding: 10px 0px;
+}
+}
